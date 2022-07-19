@@ -16,7 +16,7 @@ void find_subsets(vector<int>& nums, vector<vector<int>>& res, vector<int>& temp
 }
 
 int main () {
-    vector<int> nums = {1,3,2};
+    vector<int> nums = {1,3,1};
     vector<vector<int>> res;
     vector<int> temp;
     sort(nums.begin(),nums.end());
